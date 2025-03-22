@@ -1,0 +1,45 @@
+body {
+  width: 100%!important;
+}
+
+.class {
+  width: 100%;
+}
+
+[property="property"] {
+  width: 100%;
+}
+
+#id {
+  content: attr(data-bid);
+  --var: 123;
+  width: 100%;
+  height: var(--var);
+}
+
+@supports (display: grid) {
+  body {
+    display: grid;
+  }
+}
+
+@keyframes Animate {
+  from {
+
+  }
+
+  100% {}
+}
+
+@media (min-width: 100px) and (max-width: 100px) {
+  body {
+    width: 100%;
+    animation: Animate .2s;
+  }
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading="lazy"] {
+    clip-path: inset(0.6px)
+  }
+}

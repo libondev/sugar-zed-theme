@@ -1,0 +1,126 @@
+
+export const sugarDark = {
+  accent: '#059669',
+  border: '#424242',
+
+  insert: '#059669',
+  delete: '#E06C75',
+  change: '#79B8FF',
+
+  background: '#191b20',
+  foreground: '#dfdfdf',
+
+  comment: '#797d86',
+  variable: '#E2E4E6',
+  constant: '#dbb280',
+  keyword: '#E06C75',
+  storage: '#62bac6',
+  class: '#B392F0',
+  number: '#dbb280',
+  string: '#98C379',
+  boolean: '#62bac6',
+  function: '#79B8FF',
+  symbol: '#8888888f',
+  attribute: '#dbb280',
+  property: '#C586C0',
+  type: '#56c2a2',
+  caller: '#dbb280',
+  json: '#E06C75',
+  tag: '#79B8FF',
+  nil: '#CB7676',
+}
+
+export const sugarLight = {
+  accent: '#1E754F',
+  border: '#dadada',
+
+  insert: '#1E754F',
+  delete: '#AA3731',
+  change: '#4B69C6',
+
+  background: '#ffffff',
+  foreground: '#35373d',
+
+  comment: '#8B8B8B94',
+  variable: '#35373d',
+  constant: '#9C5D27',
+  keyword: '#AA3731',
+  storage: '#247A94',
+  class: '#6D42C1',
+  number: '#9C5D27',
+  string: '#448C27',
+  boolean: '#247A94',
+  function: '#4B69C6',
+  symbol: '#88888888',
+  attribute: '#9C5D27',
+  property: '#7A3E9D',
+  type: '#6D42C1',
+  caller: '#9C5D27',
+  json: '#AA3731',
+  tag: '#4B69C6',
+  nil: '#AA3731',
+}
+
+export const focusDark = {
+  accent: '#059669',
+  border: '#424242',
+
+  insert: '#059669',
+  delete: '#E06C75',
+  change: '#79B8FF',
+
+  background: '#121212',
+  foreground: '#E2E4E6',
+
+  comment: '#606060',
+  variable: '#E2E4E6',
+  constant: '#888888',
+  keyword: '#888888',
+  storage: '#888888',
+  class: '#98C379',
+  regexp: '#CE9178',
+  number: '#CE9178',
+  string: '#CE9178',
+  boolean: '#CE9178',
+  function: '#98C379',
+  symbol: '#8B8B8B9F',
+  attribute: '#888888',
+  property: '#E2E4E6',
+  type: '#62bac6',
+  caller: '#888888',
+  json: '#98C379',
+  tag: '#888888',
+  nil: '#E2E4E6',
+}
+
+export const focusLight = {
+  accent: '#1E754F',
+  border: '#dadada',
+
+  insert: '#1E754F',
+  delete: '#A31515',
+  change: '#4B69C6',
+
+  background: '#ffffff',
+  foreground: '#393A34',
+
+  comment: '#999999',
+  variable: '#24292E',
+  constant: '#888888',
+  keyword: '#888888',
+  storage: '#888888',
+  class: '#0451A5',
+  regexp: '#A31515',
+  number: '#A31515',
+  string: '#A31515',
+  boolean: '#A31515',
+  function: '#0451A5',
+  symbol: '#AAAAAA',
+  attribute: '#888888',
+  property: '#24292E',
+  type: '#267F99',
+  caller: '#888888',
+  json: '#0451A5',
+  tag: '#888888',
+  nil: '#24292E',
+}
