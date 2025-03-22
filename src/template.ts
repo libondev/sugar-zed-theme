@@ -38,6 +38,7 @@ export const metadata: ThemeDefine = {
 
 export function getTemplate(colors: any): Theme['style'] {
   return {
+    hint: colors.symbol,
     created: colors.insert,
     deleted: colors.delete,
     modified: colors.change,
@@ -173,6 +174,16 @@ export function getTemplate(colors: any): Theme['style'] {
         font_style: null,
         font_weight: null,
       },
+      hint: {
+        color: colors.symbol,
+        font_style: null,
+        font_weight: null,
+      },
+      embedded: {
+        color: colors.symbol,
+        font_style: null,
+        font_weight: null,
+      }
     }
   }
 }

@@ -7,6 +7,7 @@
       "name": "Sugar Dark",
       "appearance": "dark",
       "style": {
+        "hint": "#8888888f",
         "created": "#059669",
         "deleted": "#E06C75",
         "modified": "#79B8FF",
@@ -141,6 +142,16 @@
             "color": "#62bac6",
             "font_style": null,
             "font_weight": null
+          },
+          "hint": {
+            "color": "#8888888f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "embedded": {
+            "color": "#8888888f",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -149,6 +160,7 @@
       "name": "Sugar Light",
       "appearance": "light",
       "style": {
+        "hint": "#88888888",
         "created": "#1E754F",
         "deleted": "#AA3731",
         "modified": "#4B69C6",
@@ -283,6 +295,16 @@
             "color": "#247A94",
             "font_style": null,
             "font_weight": null
+          },
+          "hint": {
+            "color": "#88888888",
+            "font_style": null,
+            "font_weight": null
+          },
+          "embedded": {
+            "color": "#88888888",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -291,6 +313,7 @@
       "name": "Sugar Dark Focus",
       "appearance": "dark",
       "style": {
+        "hint": "#8B8B8B9F",
         "created": "#059669",
         "deleted": "#E06C75",
         "modified": "#79B8FF",
@@ -425,6 +448,16 @@
             "color": "#888888",
             "font_style": null,
             "font_weight": null
+          },
+          "hint": {
+            "color": "#8B8B8B9F",
+            "font_style": null,
+            "font_weight": null
+          },
+          "embedded": {
+            "color": "#8B8B8B9F",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -433,6 +466,7 @@
       "name": "Sugar Light Focus",
       "appearance": "light",
       "style": {
+        "hint": "#AAAAAA",
         "created": "#1E754F",
         "deleted": "#A31515",
         "modified": "#4B69C6",
@@ -565,6 +599,16 @@
           },
           "title": {
             "color": "#888888",
+            "font_style": null,
+            "font_weight": null
+          },
+          "hint": {
+            "color": "#AAAAAA",
+            "font_style": null,
+            "font_weight": null
+          },
+          "embedded": {
+            "color": "#AAAAAA",
             "font_style": null,
             "font_weight": null
           }
