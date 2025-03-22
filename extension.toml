@@ -1,0 +1,7 @@
+id = "sugar-theme"
+name = "Sugar Theme"
+description = "Sugar theme for zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Libon <bon.li@outlook.com>"]
+repository = "https://github.com/libondev/sugar-zed-theme"
