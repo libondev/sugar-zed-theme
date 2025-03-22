@@ -37,11 +37,20 @@ export const metadata: ThemeDefine = {
 }
 
 export function getTemplate(colors: any): Theme['style'] {
+  colors.sidebarBackground ??= colors.background;
+
   return {
     hint: colors.symbol,
+    error: colors.delete,
     created: colors.insert,
     deleted: colors.delete,
     modified: colors.change,
+    text: colors.foreground,
+    // contains inline_completions
+    predictive: colors.symbol,
+    'pane.focused_border': null,
+    'panel.focused_border': null,
+    'panel.background': colors.sidebarBackground,
     'editor.gutter': colors.background,
     'editor.line_number': colors.foreground + '33',
     'editor.hover_line_number': colors.foreground + '88',
@@ -180,6 +189,11 @@ export function getTemplate(colors: any): Theme['style'] {
         font_weight: null,
       },
       embedded: {
+        color: colors.symbol,
+        font_style: null,
+        font_weight: null,
+      },
+      predictive: {
         color: colors.symbol,
         font_style: null,
         font_weight: null,

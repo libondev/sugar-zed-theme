@@ -9,6 +9,7 @@ export const sugarDark = {
 
   background: '#191b20',
   foreground: '#dfdfdf',
+  sidebarBackground: '#24262b',
 
   comment: '#797d86',
   variable: '#E2E4E6',
@@ -40,6 +41,7 @@ export const sugarLight = {
 
   background: '#ffffff',
   foreground: '#35373d',
+  sidebarBackground: '#ebebec',
 
   comment: '#8B8B8B94',
   variable: '#35373d',
@@ -61,7 +63,7 @@ export const sugarLight = {
   nil: '#AA3731',
 }
 
-export const focusDark = {
+export const sugarDarkFocus = {
   accent: '#059669',
   border: '#424242',
 
@@ -71,6 +73,7 @@ export const focusDark = {
 
   background: '#121212',
   foreground: '#E2E4E6',
+  sidebarBackground: '#121212',
 
   comment: '#606060',
   variable: '#E2E4E6',
@@ -93,7 +96,7 @@ export const focusDark = {
   nil: '#E2E4E6',
 }
 
-export const focusLight = {
+export const sugarLightFocus = {
   accent: '#1E754F',
   border: '#dadada',
 
@@ -103,6 +106,7 @@ export const focusLight = {
 
   background: '#ffffff',
   foreground: '#393A34',
+  sidebarBackground: '#ebebec',
 
   comment: '#999999',
   variable: '#24292E',

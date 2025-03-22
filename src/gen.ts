@@ -1,10 +1,10 @@
 import fs from 'node:fs'
-import { metadata, getTemplate, type Theme } from './template'
+import { getTemplate, metadata, type Theme } from './template'
 import {
   sugarDark,
+  sugarDarkFocus,
   sugarLight,
-  focusDark,
-  focusLight
+  sugarLightFocus
 } from './variables'
 
 export function rewriteColorTheme() {
@@ -22,12 +22,12 @@ export function rewriteColorTheme() {
     {
       name: 'Sugar Dark Focus',
       appearance: 'dark',
-      style: getTemplate(focusDark),
+      style: getTemplate(sugarDarkFocus),
     },
     {
       name: 'Sugar Light Focus',
       appearance: 'light',
-      style: getTemplate(focusLight),
+      style: getTemplate(sugarLightFocus),
     },
   ]
 
