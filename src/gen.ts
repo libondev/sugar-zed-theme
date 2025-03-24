@@ -1,10 +1,11 @@
+import type { Theme } from './template'
 import fs from 'node:fs'
-import { getTemplate, metadata, type Theme } from './template'
+import { getTemplate, metadata } from './template'
 import {
   sugarDark,
   sugarDarkFocus,
   sugarLight,
-  sugarLightFocus
+  sugarLightFocus,
 } from './variables'
 
 export function rewriteColorTheme() {
@@ -35,7 +36,7 @@ export function rewriteColorTheme() {
 
   fs.writeFileSync(
     'themes/sugar.json',
-    JSON.stringify(metadata, null, 2)
+    JSON.stringify(metadata, null, 2),
   )
 }
 

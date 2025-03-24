@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "tsx --watch ./src/gen.ts",
     "build": "tsx ./src/gen.ts",
-    "prebuild": "tsx ./src/gen.ts"
+    "prebuild": "tsx ./src/gen.ts",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "author": "Libon <bon.li@outlook.com>",
   "license": "ISC",
@@ -19,7 +21,9 @@
     "url": "https://github.com/libondev/sugar-zed-theme/issues"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
     "@types/node": "^22.13.11",
+    "eslint": "^9.23.0",
     "tsx": "^4.19.3"
   }
 }

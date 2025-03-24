@@ -1,5 +1,5 @@
 interface ThemeDefine {
-  '$schema': string
+  $schema: string
   name: string
   author: string
   themes: Theme[]
@@ -12,9 +12,9 @@ interface Player {
 }
 
 interface Syntax {
-  color: string,
-  font_style: string | null,
-  font_weight: string | null,
+  color: string
+  font_style: string | null
+  font_weight: string | null
 }
 
 export interface Style {
@@ -30,55 +30,55 @@ export interface Theme {
 }
 
 export const metadata: ThemeDefine = {
-  '$schema': 'https://zed.dev/schema/themes/v0.2.0.json',
-  'name': 'Sugar Theme',
-  'author': 'Libon',
-  'themes': []
+  $schema: 'https://zed.dev/schema/themes/v0.2.0.json',
+  name: 'Sugar Theme',
+  author: 'Libon',
+  themes: [],
 }
 
 export function getTemplate(colors: any): Theme['style'] {
-  colors.sidebarBackground ??= colors.background;
+  colors.sidebarBackground ??= colors.background
 
   return {
-    hint: colors.symbol,
-    error: colors.delete,
-    created: colors.insert,
-    deleted: colors.delete,
-    modified: colors.change,
-    text: colors.foreground,
-    // contains inline_completions
-    predictive: colors.symbol,
+    'hint': colors.symbol,
+    'error': colors.delete,
+    'ignored': colors.symbol,
+    'created': colors.insert,
+    'deleted': colors.delete,
+    'modified': colors.change,
+    'text': colors.foreground,
+    'predictive': colors.symbol, // contains inline_completions
     'pane.focused_border': null,
     'panel.focused_border': null,
     'panel.background': colors.sidebarBackground,
     'editor.gutter': colors.background,
-    'editor.line_number': colors.foreground + '33',
-    'editor.hover_line_number': colors.foreground + '88',
-    'editor.active_line_number': colors.foreground + 'AF',
+    'editor.line_number': `${colors.foreground}33`,
+    'editor.hover_line_number': `${colors.foreground}88`,
+    'editor.active_line_number': `${colors.foreground}AF`,
     'editor.background': colors.background,
     'editor.foreground': colors.foreground,
-    syntax: {
-      attribute: {
+    'syntax': {
+      'attribute': {
         color: colors.attribute,
         font_style: null,
         font_weight: null,
       },
-      boolean: {
+      'boolean': {
         color: colors.boolean,
         font_style: null,
         font_weight: null,
       },
-      comment: {
+      'comment': {
         color: colors.comment,
         font_style: null,
         font_weight: null,
       },
-      constant: {
+      'constant': {
         color: colors.constant,
         font_style: null,
         font_weight: null,
       },
-      string: {
+      'string': {
         color: colors.string,
         font_style: null,
         font_weight: null,
@@ -88,12 +88,12 @@ export function getTemplate(colors: any): Theme['style'] {
         font_style: null,
         font_weight: null,
       },
-      keyword: {
+      'keyword': {
         color: colors.keyword,
         font_style: null,
         font_weight: null,
       },
-      emphasis: {
+      'emphasis': {
         color: colors.storage,
         font_style: null,
         font_weight: null,
@@ -103,27 +103,27 @@ export function getTemplate(colors: any): Theme['style'] {
         font_style: null,
         font_weight: null,
       },
-      constructor: {
+      'constructor': {
         color: colors.storage,
         font_style: null,
         font_weight: null,
       },
-      function: {
+      'function': {
         color: colors.function,
         font_style: null,
         font_weight: null,
       },
-      tag: {
+      'tag': {
         color: colors.tag,
         font_style: null,
         font_weight: null,
       },
-      enum: {
+      'enum': {
         color: colors.type,
         font_style: null,
         font_weight: null,
       },
-      variable: {
+      'variable': {
         color: colors.variable,
         font_style: null,
         font_weight: null,
@@ -133,12 +133,12 @@ export function getTemplate(colors: any): Theme['style'] {
         font_style: null,
         font_weight: null,
       },
-      property: {
+      'property': {
         color: colors.property,
         font_style: null,
         font_weight: null,
       },
-      punctuation: {
+      'punctuation': {
         color: colors.symbol,
         font_style: null,
         font_weight: null,
@@ -148,56 +148,56 @@ export function getTemplate(colors: any): Theme['style'] {
         font_style: null,
         font_weight: null,
       },
-      text: {
+      'text': {
         color: colors.foreground,
         font_style: null,
         font_weight: null,
       },
-      operator: {
+      'operator': {
         color: colors.symbol,
         font_style: null,
         font_weight: null,
       },
-      type: {
+      'type': {
         color: colors.type,
         font_style: null,
         font_weight: null,
       },
-      number: {
+      'number': {
         color: colors.number,
         font_style: null,
         font_weight: null,
       },
-      link_text: {
+      'link_text': {
         color: colors.variable,
         font_style: null,
         font_weight: null,
       },
-      link_uri: {
+      'link_uri': {
         color: colors.type,
         font_style: null,
         font_weight: null,
       },
-      title: {
+      'title': {
         color: colors.storage,
         font_style: null,
         font_weight: null,
       },
-      hint: {
+      'hint': {
         color: colors.symbol,
         font_style: null,
         font_weight: null,
       },
-      embedded: {
+      'embedded': {
         color: colors.symbol,
         font_style: null,
         font_weight: null,
       },
-      predictive: {
+      'predictive': {
         color: colors.symbol,
         font_style: null,
         font_weight: null,
-      }
-    }
+      },
+    },
   }
 }

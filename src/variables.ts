@@ -1,4 +1,3 @@
-
 export const sugarDark = {
   accent: '#059669',
   border: '#424242',
@@ -28,7 +27,6 @@ export const sugarDark = {
   caller: '#dbb280',
   json: '#E06C75',
   tag: '#79B8FF',
-  nil: '#CB7676',
 }
 
 export const sugarLight = {
@@ -36,8 +34,8 @@ export const sugarLight = {
   border: '#dadada',
 
   insert: '#007100',
-  delete: '#AA3731',
-  change: '#895503',
+  delete: '#dc2626',
+  change: '#cf9d07',
 
   background: '#ffffff',
   foreground: '#35373d',
@@ -60,7 +58,6 @@ export const sugarLight = {
   caller: '#9C5D27',
   json: '#AA3731',
   tag: '#4B69C6',
-  nil: '#AA3731',
 }
 
 export const sugarDarkFocus = {
@@ -93,7 +90,6 @@ export const sugarDarkFocus = {
   caller: '#888888',
   json: '#98C379',
   tag: '#888888',
-  nil: '#E2E4E6',
 }
 
 export const sugarLightFocus = {
@@ -101,8 +97,8 @@ export const sugarLightFocus = {
   border: '#dadada',
 
   insert: '#007100',
-  delete: '#A31515',
-  change: '#895503',
+  delete: '#dc2626',
+  change: '#cf9d07',
 
   background: '#ffffff',
   foreground: '#393A34',
@@ -126,5 +122,4 @@ export const sugarLightFocus = {
   caller: '#888888',
   json: '#0451A5',
   tag: '#888888',
-  nil: '#24292E',
 }
