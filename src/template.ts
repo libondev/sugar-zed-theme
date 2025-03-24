@@ -47,16 +47,21 @@ export function getTemplate(colors: any): Theme['style'] {
     'deleted': colors.delete,
     'modified': colors.change,
     'text': colors.foreground,
-    'predictive': colors.symbol, // contains inline_completions
+    // contains inline_completions
+    'predictive': colors.symbol,
+    // file tree selected
+    'element.selected': `${colors.accent}40`,
+    'editor.gutter': colors.background,
+    'editor.background': colors.background,
+    'editor.foreground': colors.foreground,
+    'editor.line_number': `${colors.foreground}33`,
+    'editor.indent_guide_active': colors.accent,
+    'editor.hover_line_number': `${colors.foreground}88`,
+    'editor.active_line_number': `${colors.foreground}AF`,
+    'editor.document_highlight.read_background': `${colors.accent}20`,
     'pane.focused_border': null,
     'panel.focused_border': null,
     'panel.background': colors.sidebarBackground,
-    'editor.gutter': colors.background,
-    'editor.line_number': `${colors.foreground}33`,
-    'editor.hover_line_number': `${colors.foreground}88`,
-    'editor.active_line_number': `${colors.foreground}AF`,
-    'editor.background': colors.background,
-    'editor.foreground': colors.foreground,
     'syntax': {
       'attribute': {
         color: colors.attribute,
