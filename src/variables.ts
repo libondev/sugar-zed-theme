@@ -4,7 +4,8 @@ export const sugarDark = {
 
   insert: '#73c991',
   delete: '#E06C75',
-  change: '#cca700',
+  change: '#70b8ff',
+  warning: '#d3ae1d',
 
   background: '#191b20',
   foreground: '#dfdfdf',
@@ -19,30 +20,31 @@ export const sugarDark = {
   number: '#dbb280',
   string: '#98C379',
   boolean: '#62bac6',
-  function: '#79B8FF',
+  function: '#70b8ff',
   symbol: '#8888888f',
   attribute: '#dbb280',
   property: '#C586C0',
   type: '#56c2a2',
   caller: '#dbb280',
   json: '#E06C75',
-  tag: '#79B8FF',
+  tag: '#70b8ff',
 }
 
 export const sugarLight = {
   accent: '#1E754F',
   border: '#dadada',
 
-  insert: '#007100',
+  insert: '#448C27',
   delete: '#dc2626',
-  change: '#ad8b00',
+  change: '#0d74ce',
+  warning: '#d3ae1d',
 
   background: '#ffffff',
-  foreground: '#35373d',
+  foreground: '#24292E',
   sidebarBackground: '#ebebec',
 
   comment: '#8B8B8B94',
-  variable: '#35373d',
+  variable: '#24292E',
   constant: '#9C5D27',
   keyword: '#AA3731',
   storage: '#247A94',
@@ -66,11 +68,12 @@ export const sugarDarkFocus = {
 
   insert: '#73c991',
   delete: '#E06C75',
-  change: '#cca700',
+  change: '#0d74ce',
+  warning: '#d3ae1d',
 
   background: '#121212',
   foreground: '#E2E4E6',
-  sidebarBackground: '#121212',
+  sidebarBackground: '#242424',
 
   comment: '#606060',
   variable: '#E2E4E6',
@@ -96,9 +99,10 @@ export const sugarLightFocus = {
   accent: '#1E754F',
   border: '#dadada',
 
-  insert: '#007100',
+  insert: '#448C27',
   delete: '#dc2626',
-  change: '#ad8b00',
+  change: '#0d74ce',
+  warning: '#d3ae1d',
 
   background: '#ffffff',
   foreground: '#393A34',
@@ -122,4 +126,16 @@ export const sugarLightFocus = {
   caller: '#888888',
   json: '#0451A5',
   tag: '#888888',
+}
+
+export const terminalColors = {
+  // [normal, bright, dim]
+  black: ['#6b7280', '#9ca3af', '#4b5563'],
+  red: ['#ef4444', '#f87171', '#dc2626'],
+  yellow: ['#eab308', '#facc15', '#ca8a04'],
+  green: ['#22c55e', '#4ade80', '#16a34a'],
+  blue: ['#3b82f6', '#60a5fa', '#2563eb'],
+  magenta: ['#ec4899', '#f472b6', '#db2777'],
+  cyan: ['#06b6d4', '#22d3ee', '#0891b2'],
+  // white: ['', '', ''],
 }

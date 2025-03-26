@@ -12,23 +12,19 @@ export function rewriteColorTheme() {
   const themes: Theme[] = [
     {
       name: 'Sugar Dark',
-      appearance: 'dark',
-      style: getTemplate(sugarDark),
+      ...getTemplate(sugarDark, 'dark'),
     },
     {
       name: 'Sugar Light',
-      appearance: 'light',
-      style: getTemplate(sugarLight),
+      ...getTemplate(sugarLight, 'light'),
     },
     {
       name: 'Sugar Dark Focus',
-      appearance: 'dark',
-      style: getTemplate(sugarDarkFocus),
+      ...getTemplate(sugarDarkFocus, 'dark'),
     },
     {
       name: 'Sugar Light Focus',
-      appearance: 'light',
-      style: getTemplate(sugarLightFocus),
+      ...getTemplate(sugarLightFocus, 'light'),
     },
   ]
 
