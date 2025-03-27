@@ -2,10 +2,12 @@ export const sugarDark = {
   accent: '#059669',
   border: '#424242',
 
-  insert: '#73c991',
-  delete: '#E06C75',
-  change: '#70b8ff',
-  warning: '#d3ae1d',
+  created: '#669f59',
+  deleted: '#d36151',
+  changed: '#dec184',
+  ignored: '#878a98',
+  warning: '#dec184',
+  conflict: '#70b8ff',
 
   background: '#191b20',
   foreground: '#dfdfdf',
@@ -34,10 +36,12 @@ export const sugarLight = {
   accent: '#1E754F',
   border: '#dadada',
 
-  insert: '#448C27',
-  delete: '#dc2626',
-  change: '#0d74ce',
-  warning: '#d3ae1d',
+  created: '#669f59',
+  deleted: '#d36151',
+  changed: '#a48819',
+  ignored: '#7e8086',
+  warning: '#a48819',
+  conflict: '#0d74ce',
 
   background: '#ffffff',
   foreground: '#24292E',
@@ -62,14 +66,17 @@ export const sugarLight = {
   tag: '#4B69C6',
 }
 
+// 123132
 export const sugarDarkFocus = {
   accent: '#059669',
   border: '#424242',
 
-  insert: '#73c991',
-  delete: '#E06C75',
-  change: '#0d74ce',
-  warning: '#d3ae1d',
+  created: '#669f59',
+  deleted: '#d36151',
+  changed: '#dec184',
+  ignored: '#878a98',
+  warning: '#dec184',
+  conflict: '#70b8ff',
 
   background: '#121212',
   foreground: '#E2E4E6',
@@ -99,16 +106,18 @@ export const sugarLightFocus = {
   accent: '#1E754F',
   border: '#dadada',
 
-  insert: '#448C27',
-  delete: '#dc2626',
-  change: '#0d74ce',
-  warning: '#d3ae1d',
+  created: '#669f59',
+  deleted: '#d36151',
+  changed: '#a48819',
+  ignored: '#7e8086',
+  warning: '#a48819',
+  conflict: '#0d74ce',
 
   background: '#ffffff',
   foreground: '#393A34',
   sidebarBackground: '#ebebec',
 
-  comment: '#999999',
+  comment: '#8B8B8B94',
   variable: '#24292E',
   constant: '#888888',
   keyword: '#888888',
@@ -133,7 +142,7 @@ export const terminalColors = {
   black: ['#6b7280', '#9ca3af', '#4b5563'],
   red: ['#ef4444', '#f87171', '#dc2626'],
   yellow: ['#eab308', '#facc15', '#ca8a04'],
-  green: ['#22c55e', '#4ade80', '#16a34a'],
+  green: ['#10b981', '#34d399', '#059669'],
   blue: ['#3b82f6', '#60a5fa', '#2563eb'],
   magenta: ['#ec4899', '#f472b6', '#db2777'],
   cyan: ['#06b6d4', '#22d3ee', '#0891b2'],
