@@ -28,7 +28,6 @@ export const sugarDark = {
   property: '#C586C0',
   type: '#56c2a2',
   caller: '#dbb280',
-  json: '#E06C75',
   tag: '#70b8ff',
 }
 
@@ -41,13 +40,13 @@ export const sugarLight = {
   changed: '#a48819',
   ignored: '#7e8086',
   warning: '#a48819',
-  conflict: '#0d74ce',
+  conflict: '#4B69C6',
 
   background: '#ffffff',
   foreground: '#24292E',
   sidebarBackground: '#ebebec',
 
-  comment: '#8B8B8B94',
+  comment: '#8995A0',
   variable: '#24292E',
   constant: '#9C5D27',
   keyword: '#AA3731',
@@ -62,7 +61,6 @@ export const sugarLight = {
   property: '#7A3E9D',
   type: '#6D42C1',
   caller: '#9C5D27',
-  json: '#AA3731',
   tag: '#4B69C6',
 }
 
@@ -89,7 +87,7 @@ export const sugarDarkFocus = {
   storage: '#888888',
   class: '#98C379',
   regexp: '#CE9178',
-  number: '#CE9178',
+  number: '#62bac6',
   string: '#CE9178',
   boolean: '#62bac6',
   function: '#98C379',
@@ -98,7 +96,6 @@ export const sugarDarkFocus = {
   property: '#E2E4E6',
   type: '#62bac6',
   caller: '#888888',
-  json: '#98C379',
   tag: '#888888',
 }
 
@@ -111,30 +108,29 @@ export const sugarLightFocus = {
   changed: '#a48819',
   ignored: '#7e8086',
   warning: '#a48819',
-  conflict: '#0d74ce',
+  conflict: '#4B69C6',
 
   background: '#ffffff',
   foreground: '#393A34',
   sidebarBackground: '#ebebec',
 
-  comment: '#8B8B8B94',
+  comment: '#8995A0',
   variable: '#24292E',
-  constant: '#888888',
-  keyword: '#888888',
-  storage: '#888888',
-  class: '#0451A5',
+  constant: '#999999',
+  keyword: '#999999',
+  storage: '#999999',
+  class: '#4B69C6',
   regexp: '#A31515',
-  number: '#A31515',
+  number: '#267F99',
   string: '#A31515',
   boolean: '#267F99',
-  function: '#0451A5',
-  symbol: '#AAAAAA',
-  attribute: '#888888',
+  function: '#4B69C6',
+  symbol: '#9999999f',
+  attribute: '#999999',
   property: '#24292E',
   type: '#267F99',
-  caller: '#888888',
-  json: '#0451A5',
-  tag: '#888888',
+  caller: '#999999',
+  tag: '#999999',
 }
 
 export const terminalColors = {

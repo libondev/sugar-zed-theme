@@ -66,7 +66,7 @@ export function getTemplate(
       'editor.background': colors.background,
       'editor.foreground': colors.foreground,
       'editor.indent_guide_active': colors.accent,
-      'editor.line_number': colors.comment,
+      'editor.line_number': colors.symbol,
       'editor.hover_line_number': colors.foreground,
       'editor.active_line_number': `${colors.accent}cf}`,
       'editor.document_highlight.read_background': `${colors.accent}28`,
