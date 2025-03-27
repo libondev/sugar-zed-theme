@@ -106,23 +106,23 @@ export function getTemplate(
           font_style: null,
           font_weight: null,
         },
+        'comment.doc': {
+          color: colors.comment,
+          font_style: null,
+          font_weight: null,
+        },
         'constant': {
           color: colors.constant,
           font_style: null,
           font_weight: null,
         },
-        'string': {
-          color: colors.string,
+        'constructor': {
+          color: colors.storage,
           font_style: null,
           font_weight: null,
         },
-        'string.regex': {
-          color: colors.string,
-          font_style: null,
-          font_weight: null,
-        },
-        'keyword': {
-          color: colors.keyword,
+        'embedded': {
+          color: colors.symbol,
           font_style: null,
           font_weight: null,
         },
@@ -136,8 +136,8 @@ export function getTemplate(
           font_style: null,
           font_weight: null,
         },
-        'constructor': {
-          color: colors.storage,
+        'enum': {
+          color: colors.type,
           font_style: null,
           font_weight: null,
         },
@@ -146,23 +146,38 @@ export function getTemplate(
           font_style: null,
           font_weight: null,
         },
-        'tag': {
-          color: colors.tag,
+        'hint': {
+          color: colors.symbol,
           font_style: null,
           font_weight: null,
         },
-        'enum': {
-          color: colors.type,
+        'keyword': {
+          color: colors.keyword,
           font_style: null,
           font_weight: null,
         },
-        'variable': {
+        'link_text': {
           color: colors.variable,
           font_style: null,
           font_weight: null,
         },
-        'variable.special': {
-          color: colors.caller,
+        'link_uri': {
+          color: colors.type,
+          font_style: null,
+          font_weight: null,
+        },
+        'number': {
+          color: colors.number,
+          font_style: null,
+          font_weight: null,
+        },
+        'operator': {
+          color: colors.symbol,
+          font_style: null,
+          font_weight: null,
+        },
+        'predictive': {
+          color: colors.symbol,
           font_style: null,
           font_weight: null,
         },
@@ -181,53 +196,68 @@ export function getTemplate(
           font_style: null,
           font_weight: null,
         },
+        'punctuation.delimiter': {
+          color: colors.symbol,
+          font_style: null,
+          font_weight: null,
+        },
+        'punctuation.list_marker': {
+          color: colors.symbol,
+          font_style: null,
+          font_weight: null,
+        },
+        'punctuation.special': {
+          color: colors.symbol,
+          font_style: null,
+          font_weight: null,
+        },
+        'string': {
+          color: colors.string,
+          font_style: null,
+          font_weight: null,
+        },
+        'string.regex': {
+          color: colors.string,
+          font_style: null,
+          font_weight: null,
+        },
+        'string.special.symbol': {
+          color: colors.symbol,
+          font_style: null,
+          font_weight: null,
+        },
+        'tag': {
+          color: colors.tag,
+          font_style: null,
+          font_weight: null,
+        },
         'text': {
           color: colors.foreground,
           font_style: null,
           font_weight: null,
         },
-        'operator': {
-          color: colors.symbol,
+        'text.literal': {
+          color: colors.string,
           font_style: null,
           font_weight: null,
         },
+        // 'title': {
+        //   color: colors.storage,
+        //   font_style: null,
+        //   font_weight: null,
+        // },
         'type': {
           color: colors.type,
           font_style: null,
           font_weight: null,
         },
-        'number': {
-          color: colors.number,
-          font_style: null,
-          font_weight: null,
-        },
-        'link_text': {
+        'variable': {
           color: colors.variable,
           font_style: null,
           font_weight: null,
         },
-        'link_uri': {
-          color: colors.type,
-          font_style: null,
-          font_weight: null,
-        },
-        'title': {
-          color: colors.storage,
-          font_style: null,
-          font_weight: null,
-        },
-        'hint': {
-          color: colors.symbol,
-          font_style: null,
-          font_weight: null,
-        },
-        'embedded': {
-          color: colors.symbol,
-          font_style: null,
-          font_weight: null,
-        },
-        'predictive': {
-          color: colors.symbol,
+        'variable.special': {
+          color: colors.caller,
           font_style: null,
           font_weight: null,
         },
