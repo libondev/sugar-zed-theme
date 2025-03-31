@@ -19,7 +19,7 @@
         "text.muted": "#878a98",
         "icon.muted": "#878a98",
         "predictive": "#8888888f",
-        "element.selected": "#05966950",
+        "element.selected": "#05966940",
         "editor.gutter.background": "#191b20",
         "editor.background": "#191b20",
         "editor.foreground": "#dfdfdf",
@@ -219,11 +219,6 @@
             "font_style": null,
             "font_weight": null
           },
-          "title": {
-            "color": "#62bac6",
-            "font_style": null,
-            "font_weight": null
-          },
           "type": {
             "color": "#56c2a2",
             "font_style": null,
@@ -258,7 +253,7 @@
         "text.muted": "#7e8086",
         "icon.muted": "#7e8086",
         "predictive": "#88888888",
-        "element.selected": "#1E754F50",
+        "element.selected": "#1E754F40",
         "editor.gutter.background": "#ffffff",
         "editor.background": "#ffffff",
         "editor.foreground": "#24292E",
@@ -458,11 +453,6 @@
             "font_style": null,
             "font_weight": null
           },
-          "title": {
-            "color": "#247A94",
-            "font_style": null,
-            "font_weight": null
-          },
           "type": {
             "color": "#6D42C1",
             "font_style": null,
@@ -497,7 +487,7 @@
         "text.muted": "#878a98",
         "icon.muted": "#878a98",
         "predictive": "#8B8B8B9F",
-        "element.selected": "#05966950",
+        "element.selected": "#05966940",
         "editor.gutter.background": "#121212",
         "editor.background": "#121212",
         "editor.foreground": "#E2E4E6",
@@ -697,11 +687,6 @@
             "font_style": null,
             "font_weight": null
           },
-          "title": {
-            "color": "#888888",
-            "font_style": null,
-            "font_weight": null
-          },
           "type": {
             "color": "#62bac6",
             "font_style": null,
@@ -736,7 +721,7 @@
         "text.muted": "#7e8086",
         "icon.muted": "#7e8086",
         "predictive": "#9999999f",
-        "element.selected": "#1E754F50",
+        "element.selected": "#1E754F40",
         "editor.gutter.background": "#ffffff",
         "editor.background": "#ffffff",
         "editor.foreground": "#393A34",
@@ -933,11 +918,6 @@
           },
           "text.literal": {
             "color": "#A31515",
-            "font_style": null,
-            "font_weight": null
-          },
-          "title": {
-            "color": "#999999",
             "font_style": null,
             "font_weight": null
           },

@@ -61,7 +61,7 @@ export function getTemplate(
       // contains inline_completions
       'predictive': colors.symbol,
       // file tree selected
-      'element.selected': `${colors.accent}50`,
+      'element.selected': `${colors.accent}40`,
       'editor.gutter.background': colors.background,
       'editor.background': colors.background,
       'editor.foreground': colors.foreground,
