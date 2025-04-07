@@ -13,7 +13,7 @@ export const sugarDark = {
   foreground: '#dfdfdf',
   sidebarBackground: '#24262b',
 
-  comment: '#797d86',
+  comment: '#758575DD',
   variable: '#E2E4E6',
   constant: '#dbb280',
   keyword: '#E06C75',
@@ -46,7 +46,7 @@ export const sugarLight = {
   foreground: '#24292E',
   sidebarBackground: '#ebebec',
 
-  comment: '#8995A0',
+  comment: '#758575DD',
   variable: '#24292E',
   constant: '#9C5D27',
   keyword: '#A31515',
@@ -79,7 +79,7 @@ export const sugarDarkFocus = {
   foreground: '#E2E4E6',
   sidebarBackground: '#242424',
 
-  comment: '#606060',
+  comment: '#758575DD',
   variable: '#E2E4E6',
   constant: '#888888',
   keyword: '#888888',
@@ -113,7 +113,7 @@ export const sugarLightFocus = {
   foreground: '#393A34',
   sidebarBackground: '#ebebec',
 
-  comment: '#8995A0',
+  comment: '#758575DD',
   variable: '#24292E',
   constant: '#999999',
   keyword: '#999999',
@@ -136,10 +136,10 @@ export const terminalColors = {
   // [normal, bright, dim]
   black: ['#6b7280', '#9ca3af', '#4b5563'],
   red: ['#ef4444', '#f87171', '#dc2626'],
-  yellow: ['#eab308', '#facc15', '#ca8a04'],
-  green: ['#10b981', '#2cc98f', '#059669'],
+  yellow: ['#eab308', '#e5e540', '#777a1c'],
+  green: ['#50b86d', '#5ccd8f', '#347920'],
   blue: ['#3b82f6', '#4d9bf9', '#2563eb'],
-  magenta: ['#ec4899', '#f472b6', '#db2777'],
-  cyan: ['#06b6d4', '#22d3ee', '#0891b2'],
+  cyan: ['#4196ca', '#55b4cc', '#317796'],
+  magenta: ['#ec4899', '#f472b6', '#af2bb8'],
   // white: ['', '', ''],
 }

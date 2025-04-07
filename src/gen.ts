@@ -32,7 +32,7 @@ export function rewriteColorTheme() {
 
   fs.writeFileSync(
     'themes/sugar.json',
-    JSON.stringify(metadata, null, 2),
+    `${JSON.stringify(metadata, null, 2)}\n`,
   )
 }
 
