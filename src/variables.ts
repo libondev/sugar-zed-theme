@@ -162,7 +162,7 @@ export const sugarDarkMidnight = {
   property: '#C8C8C8',
   type: '#8FBCBB',
   caller: '#81A1C1',
-  tag: '#8FBCBB',
+  tag: '#81A1C1',
 }
 
 export const terminalColors = {
