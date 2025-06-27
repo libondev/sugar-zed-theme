@@ -2,14 +2,6 @@
   "name": "sugar-zed-theme",
   "version": "0.0.1",
   "description": "Sugar theme for zed",
-  "main": "index.js",
-  "scripts": {
-    "dev": "tsx --watch ./src/gen.ts",
-    "build": "tsx ./src/gen.ts",
-    "prebuild": "tsx ./src/gen.ts",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix"
-  },
   "author": "Libon <bon.li@outlook.com>",
   "license": "ISC",
   "homepage": "https://github.com/libondev/sugar-zed-theme#readme",
@@ -19,6 +11,14 @@
   },
   "bugs": {
     "url": "https://github.com/libondev/sugar-zed-theme/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch ./src/gen.ts",
+    "build": "tsx ./src/gen.ts",
+    "prebuild": "tsx ./src/gen.ts",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.11.0",

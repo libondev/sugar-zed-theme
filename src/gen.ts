@@ -4,6 +4,7 @@ import { getTemplate, metadata } from './template'
 import {
   sugarDark,
   sugarDarkFocus,
+  sugarDarkMidnight,
   sugarLight,
   sugarLightFocus,
 } from './variables'
@@ -25,6 +26,10 @@ export function rewriteColorTheme() {
     {
       name: 'Sugar Light Focus',
       ...getTemplate(sugarLightFocus, 'light'),
+    },
+    {
+      name: 'Sugar Dark Midnight',
+      ...getTemplate(sugarDarkMidnight, 'dark'),
     },
   ]
 
